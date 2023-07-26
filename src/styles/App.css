@@ -1,0 +1,30 @@
+h1 { 
+  text-align: center;
+}
+
+h2 {
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+  margin-top: 35px;
+}

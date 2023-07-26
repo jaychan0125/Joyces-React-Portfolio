@@ -1,0 +1,17 @@
+.nav-tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item { 
+    font-size: larger;
+    font-weight: 800;
+}
+
+.nav-link {
+    color: #0E2239;
+}
+
+.active {
+    color: #7F9C96;
+}
