@@ -1,17 +1,21 @@
 .nav-tabs {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.nav-item { 
+    background-color: #ffecb7;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .nav-item {
     font-size: larger;
     font-weight: 800;
-}
-
-.nav-link {
-    color: #0E2239;
-}
-
-.active {
-    color: #7F9C96;
-}
+  }
+  
+  .nav-link {
+    color: #0e2239;
+  }
+  
+  .active {
+    color: #7f9c96;
+  }
+  

@@ -6,7 +6,7 @@ import Resume from "./pages/resume";
 import NavTag from "./nav-tag";
 
 function Content() {
-  const [currentPage, setCurrentPage] = useState("AboutMe");
+  const [currentPage, setCurrentPage] = useState("AboutMe");  //upon load, default content is AboutMe
 
   const renderPage = () => {
     if (currentPage === "AboutMe") {

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
 h1 { 
   text-align: center;
 }
@@ -12,6 +18,11 @@ a {
 
 li {
   list-style-type: none;
+}
+
+.header {
+  background-color: #ffecb7;
+  padding: 20px;
 }
 
 .social-links {
