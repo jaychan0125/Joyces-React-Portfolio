@@ -18,7 +18,7 @@ function ProjectList({ results }) {
         
         {results.map(({ name, url, deployed }) => (
           
-          <Grid item xs={12} sm={6} md={4} >
+          <Grid item xs={12} sm={6} md={4}  >
             <Card sx={{ height: "100%", backgroundColor: "#fff7e0" }}>
               
               <CardMedia
