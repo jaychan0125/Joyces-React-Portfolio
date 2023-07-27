@@ -6,7 +6,7 @@ function AboutMe() {
     <div>
       <h2>About Me</h2>
       <div className="abt-me-container">
-        <img className="my-pic" src="/images/me.jpg" alt="photo of Joyce" />
+        <img className="my-pic" src="./images/me.jpg" alt="photo of Joyce" />
 
         <p className="abt-me-blub">
           Hello! My name is Joyce Chan, I am a full-stack web-development
