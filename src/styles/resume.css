@@ -1,0 +1,30 @@
+.resume-container {
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.resume-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+}
+
+.resume-button {
+    background-color: #ffecb7 !important;
+    border: solid 1px #f0c245 !important;
+    padding: 7px !important;
+    margin-bottom: 15px !important;
+}
+
+.resume-button:hover {
+    background-color: #f0c245 !important;
+}
+
+.resume-notes {
+    font-size: medium;
+    margin-top: 15px;
+
+}

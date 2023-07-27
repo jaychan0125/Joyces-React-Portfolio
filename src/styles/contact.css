@@ -1,0 +1,47 @@
+.form-container {
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fff7e0;
+  border-radius: 10px;
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-area {
+  padding: 5px;
+  border: #f0c245;
+}
+.input-area:focus-visible {
+  border: #f0c245;
+}
+
+p {
+  padding: 5px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: #ffecb7;
+    border: solid 1px #f0c245;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f0c245;
+}
+
+.error-msg {
+  color: red;
+  font-size: small;
+}

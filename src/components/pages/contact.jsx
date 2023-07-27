@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import "../../styles/contact.css";
 
 function ContactForm() {
   const [fullName, setFullName] = useState("");
@@ -21,13 +22,35 @@ function ContactForm() {
     }
   };
 
+  const handleInputFocus = () => {
+    setErrAlert(""); // Clear the error message when the input is focused
+  };
+
+  const handleInputBlur = (e) => {    //make sure all areas are filled
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (!inputValue) {
+      if (inputType === "fullName") {
+        setErrAlert("Full Name is required.");
+      } else if (inputType === "email") {
+        setErrAlert("Email Address is required.");
+      } else {
+        setErrAlert("Message is required.");
+      }
+    } else {
+      setErrAlert(""); // no error message if input has a value
+    }
+  };
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !fullName || !messageContent) {
-      setErrAlert("Input is invalid.");
-      return;
-    }
+    if (!validateEmail(email)) {      //check to see if email is accurate
+      setErrAlert("Invalid email.")
+      return
+    };
 
     // clear form if everything is successful
     setFullName("");
@@ -40,42 +63,57 @@ function ContactForm() {
 
   return (
     <div>
-      <h2>Contact Form</h2>
-      <form>
-        <p>Name:</p>
-        <input
-          type="text"
-          value={fullName}
-          name="fullName"
-          //   anytime input changes, will trigger event handler
-          onChange={handleInputChange}
-          placeholder="Full Name"
-        />
-        <p>Email Address:</p>
-        <input
-          type="text"
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          placeholder="hi@email.com"
-        />
-        <p>Message:</p>
-        <textarea
-          rows="5"
-          value={messageContent}
-          name="messageContent"
-          onChange={handleInputChange}
-          placeholder="Please type in your message."
-        />
-        <button type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
-      {errAlert && (
-        <div>
-            <p>{errAlert}</p>
-        </div>
-      )}
+      <h2>Leave A Message</h2>
+      <div className="form-container">
+        <form>
+          <p>Name:</p>
+          <input
+            className="input-area"
+            type="text"
+            value={fullName}
+            name="fullName"
+            //   anytime input changes, will trigger event handler
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            onFocus={handleInputFocus}
+            placeholder="Full Name"
+          />
+          <p>Email Address:</p>
+          <input
+            className="input-area"
+            type="text"
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            onFocus={handleInputFocus}
+            placeholder="hello@email.com"
+          />
+          <p>Message:</p>
+          <textarea
+            className="input-area"
+            rows="7"
+            value={messageContent}
+            name="messageContent"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            onFocus={handleInputFocus}
+            placeholder="Please type in your message."
+          />
+
+          {errAlert && (
+            <div>
+              <p className="error-msg">{errAlert}</p>
+            </div>
+          )}
+
+          <div className="button-div">
+            <button type="button" onClick={handleFormSubmit}>
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }

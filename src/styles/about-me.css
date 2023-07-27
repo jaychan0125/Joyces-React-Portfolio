@@ -1,2 +1,20 @@
 .abt-me-container {
+    margin: 0 auto;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.my-pic {
+    border-radius: 10px;
+    height: 25%; /* Ensure the image scales proportionately */
+    width: 25%; /* Adjust the image's height to maintain aspect ratio */
+}
+
+.abt-me-blub {
+    padding: 30px;
+    font-size: medium;
+    font-weight: 400;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/nav-tags.css'
 
-function NavTag({ curretPage, handleChangePage }) {
+function NavTag({ currentPage, handleChangePage }) {
   return (
     <div>
       <nav className="nav-bar">
@@ -10,7 +10,7 @@ function NavTag({ curretPage, handleChangePage }) {
             <a 
             href="#AboutMe" 
             onClick={() => handleChangePage("AboutMe")}
-            className={curretPage === "AboutMe" ? 'nav-link active' : 'nav-link'}>
+            className={currentPage === "AboutMe" ? 'nav-link active' : 'nav-link'}>
               About Me
             </a>
           </li>
@@ -18,7 +18,7 @@ function NavTag({ curretPage, handleChangePage }) {
             <a 
             href="#Portfolio" 
             onClick={() => handleChangePage("Portfolio")}
-            className={curretPage === "Portfolio" ? 'nav-link active' : 'nav-link'}>
+            className={currentPage === "Portfolio" ? 'nav-link active' : 'nav-link'}>
               Portfolio
             </a>
           </li>
@@ -26,7 +26,7 @@ function NavTag({ curretPage, handleChangePage }) {
             <a
               href="#ContactForm"
               onClick={() => handleChangePage("ContactForm")}
-              className={curretPage === "ContactForm" ? 'nav-link active' : 'nav-link'}>
+              className={currentPage === "ContactForm" ? 'nav-link active' : 'nav-link'}>
               Contact
             </a>
           </li>
@@ -34,7 +34,7 @@ function NavTag({ curretPage, handleChangePage }) {
             <a 
             href="#Resume" 
             onClick={() => handleChangePage("Resume")}
-            className={curretPage === "Resume" ? 'nav-link active' : 'nav-link'}>
+            className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>
               Resume
             </a>
           </li>
