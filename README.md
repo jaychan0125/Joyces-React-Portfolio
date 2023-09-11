@@ -12,7 +12,7 @@ I'm remaking my portfolio!🦝 I've learned so much since week2, so let's use Re
 
 ## Deployment
 - [GitHub Repo](https://github.com/jaychan0125/Joyces-React-Portfolio)  
-- [Heroku](https://joycechanportfolio-534735ab9eb5.herokuapp.com/) 
+<!-- - [Heroku](https://joycechanportfolio-534735ab9eb5.herokuapp.com/)  -->
 
 ## Usage
 Come by and checkout my portfolio!
