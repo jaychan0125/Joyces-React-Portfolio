@@ -15,7 +15,7 @@ function Resume() {
             rel="noreferrer"
           >
             <Button className="resume-button" size="small">
-              Joyce's Resume.pdf file
+              Download Joyce's Resume.pdf
             </Button>
           </a>
           <h3>Technologies Used:</h3>
