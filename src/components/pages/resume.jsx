@@ -9,7 +9,7 @@ function Resume() {
       <div className="resume-content">
         <div className="resume-notes">
           <a
-            href="/JOYCE CHAN Resume.pdf"
+            href="./JOYCE CHAN Resume.pdf"
             download="Joyce's Resume"
             target="_blank"
             rel="noreferrer"
