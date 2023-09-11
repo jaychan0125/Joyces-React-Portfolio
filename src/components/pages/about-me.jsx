@@ -10,7 +10,7 @@ function AboutMe() {
 
         <p className="abt-me-blub">
           Hello! My name is Joyce Chan, I am a full-stack web-development
-          graduate of UofT SCS Coding Boot Camp. Prior to this program, I have
+          graduate of University of Toronto School of Continuing Studies' Coding Boot Camp. Prior to this program, I have
           been working multiple customer service roles such as an assistant
           manager at Sherwin Williams, and barista at Starbucks! I have decided
           it was time for a career change, and have since been honing my skills
