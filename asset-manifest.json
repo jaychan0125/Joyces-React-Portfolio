@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Joyces-React-Portfolio/static/css/main.3331fce5.css",
+    "main.js": "/Joyces-React-Portfolio/static/js/main.651fad8f.js",
+    "index.html": "/Joyces-React-Portfolio/index.html",
+    "main.3331fce5.css.map": "/Joyces-React-Portfolio/static/css/main.3331fce5.css.map",
+    "main.651fad8f.js.map": "/Joyces-React-Portfolio/static/js/main.651fad8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3331fce5.css",
+    "static/js/main.651fad8f.js"
+  ]
+}
