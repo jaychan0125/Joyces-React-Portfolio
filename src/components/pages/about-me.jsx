@@ -10,13 +10,13 @@ function AboutMe() {
 
         <p className="abt-me-blub">
           Hello! My name is Joyce Chan, I am a full-stack web-development
-          student in UofT SCS Coding Boot Camp. Prior to this program, I have
+          graduate of UofT SCS Coding Boot Camp. Prior to this program, I have
           been working multiple customer service roles such as an assistant
           manager at Sherwin Williams, and barista at Starbucks! I have decided
           it was time for a career change, and have since been honing my skills
           as a full-stack web-developer! I have developed projects using
-          multiple technologies including express, node, MySQL, NoSQL, React,
-          Restful APIs, and git. I am currently located in the Greater Toronto
+          multiple technologies including JavaScript, Express, Node, MySQL, NoSQL, React,
+          Restful APIs, and Git. I am currently located in the Greater Toronto
           Area in Ontario. When I am not working, you can find me waterfall
           hunting, trying interesting restaurants, and testing multiple recipes,
           most recently for ice-cream!

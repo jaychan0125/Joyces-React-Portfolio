@@ -20,19 +20,21 @@ function Resume() {
           </a>
           <h3>Technologies Used:</h3>
           <ul>
+            <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>FlexBox</li>
-            <li>JavaScript</li>
             <li>jQuery</li>
+            <li>FlexBox</li>
             <li>Bootstrap</li>
             <li>APIs</li>
             <li>NodeJS</li>
             <li>Express</li>
+            <li>Handlebars</li>
             <li>MySQL</li>
             <li>Sequelize</li>
             <li>NoSQL</li>
             <li>Mongoose</li>
+            <li>MongoDB</li>
             <li>Model-View-Controller</li>
             <li>React</li>
           </ul>
